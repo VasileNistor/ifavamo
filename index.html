@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Check The Weather</title>
+    <link rel="stylesheet" type="text/css" href="assets/Semantic-UI-CSS-master/semantic.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <script async src="assets\script.js"></script>
+</head>
+
+<body>
+    <header class="ui menu">
+        <div class="ui container">
+            <h1 id ="titre" class="header item">
+                iFavamoWeather' 
+            </h1>
+        </div>
+    </header>
+    <main>
+        <div class="ui container">
+            <div class="ui segments">
+                <center>
+                        <div id = "titre2" class="ui icon header">
+                            <i id = "titre2" class="sun icon"></i>
+                            Quel temps fait-il à ... ?
+                        </div>
+                        <form class="field">
+                            <div class="ui search">
+                                <div class="ui icon input">
+                                    <input class="prompt" name="city-search" type="text" placeholder="Chercher une ville">
+                                    <i class="search icon"></i>
+                                </div>
+                                <div class="results"></div>
+                            </div>
+                        </form>
+
+                </center>
+                <div class="ui stackable six column grid">
+
+                    <div class="column">
+                        <h2 class="ville"></h2>
+                    </div>
+                    <div class="column">
+                        <h2 class="date"></h2>
+                    </div>
+                    <div class="column">
+                        <h2 class="hour"></h2>
+                    </div>
+                    <div class="column">
+                        <h2 class="tmp"></h2>
+                    </div>
+                    <div class="column">
+                        <h2 class="condition"></h2>
+                    </div>
+
+                    <img class="icon" src="" alt="">
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="ui container">
+            <center>
+                <p>©iFavamoWeather' | Fadel - Vasile - Iman | ESTIAM </p>
+            </center>
+        </div>
+    </footer>
+</body>
+
+</html>
